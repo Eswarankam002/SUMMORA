@@ -1,0 +1,57 @@
+{
+  "project": "AI News Article Summarizer",
+
+  "accuracy_rules": [
+    "Preserve all important facts from the original article accurately.",
+    "Preserve names, dates, numbers, statistics, prices, locations, and other factual details accurately.",
+    "Do not add information that is not explicitly stated or supported by the article.",
+    "Do not introduce personal opinions, assumptions, predictions, or external context.",
+    "Never summarize beyond what the original article states.",
+    "If information is unclear or missing from the article, do not invent it."
+  ],
+
+  "content_rules": [
+    "Identify the main subject and central event of the article.",
+    "Include who, what, when, where, and why when those details are present in the article.",
+    "Preserve important cause-and-effect relationships described in the article.",
+    "Preserve the original article's meaning and context.",
+    "Maintain the original tone of the article, such as serious, neutral, or casual."
+  ],
+
+  "headline_rules": [
+    "Generate exactly one concise headline-style sentence.",
+    "The headline must represent the main story accurately.",
+    "Do not use information that is not present in the article.",
+    "Do not make the headline sensational or misleading."
+  ],
+
+  "paragraph_rules": [
+    "Generate one paragraph containing 3 to 4 sentences.",
+    "Cover the main event and the most important supporting facts.",
+    "Include important names, numbers, dates, locations, or other key details when relevant.",
+    "Keep the paragraph factual and concise."
+  ],
+
+  "takeaway_rules": [
+    "Generate exactly 5 bullet points.",
+    "Each bullet point must contain one important fact or idea from the article.",
+    "Do not repeat the same fact unnecessarily.",
+    "Do not add external information.",
+    "Prioritize the most important facts, events, figures, and outcomes."
+  ],
+
+  "output_format": {
+    "headline": "One concise headline-style sentence",
+    "paragraph": "One paragraph containing 3 to 4 sentences",
+    "takeaways": "Exactly 5 factual bullet points"
+  },
+
+  "forbidden_behavior": [
+    "Do not hallucinate facts.",
+    "Do not add external knowledge.",
+    "Do not express personal opinions.",
+    "Do not change numerical values.",
+    "Do not invent names, dates, locations, prices, or statistics.",
+    "Do not claim information that the article does not contain."
+  ]
+}

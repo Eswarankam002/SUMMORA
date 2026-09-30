@@ -1,0 +1,111 @@
+{
+  "benchmark_articles": [
+    {
+      "id": 1,
+      "category": "Technology",
+      "title": "NovaTech Launches Orion Laptop With 18-Hour Battery",
+      "article": "NovaTech has launched the Orion, a new laptop designed for students and professionals. The laptop uses the company's NovaCore X2 processor, includes 16GB of RAM and 512GB of storage, and has a 14-inch display. NovaTech says the Orion can provide up to 18 hours of battery life under typical usage. The laptop starts at $899 and will be available from October 15 in the United States, Canada, and the United Kingdom. The company said the device is aimed at users who need long battery life for work and study. NovaTech has not yet announced when the laptop will become available in other regions.",
+      "expected_summary": {
+        "headline": "NovaTech launches the Orion laptop with a NovaCore X2 processor and up to 18 hours of battery life starting at $899.",
+        "paragraph": "NovaTech has launched the Orion laptop for students and professionals. It features a NovaCore X2 processor, 16GB of RAM, 512GB of storage, and a 14-inch display, with up to 18 hours of battery life under typical usage. The laptop starts at $899 and will be available from October 15 in the United States, Canada, and the United Kingdom. The company has not announced availability in other regions.",
+        "takeaways": [
+          "NovaTech launched the Orion laptop for students and professionals.",
+          "The laptop includes a NovaCore X2 processor, 16GB of RAM, and 512GB of storage.",
+          "The Orion has a 14-inch display and up to 18 hours of battery life under typical usage.",
+          "The starting price is $899 and sales begin October 15 in the United States, Canada, and the United Kingdom.",
+          "NovaTech has not announced availability dates for other regions."
+        ]
+      }
+    },
+
+    {
+      "id": 2,
+      "category": "Politics",
+      "title": "City Council Approves Public Transport Expansion Plan",
+      "article": "The Riverton City Council has approved a three-year public transport expansion plan following a public meeting on Tuesday. The plan includes 25 new electric buses, six additional routes, and 40 new bus stops across the city. According to the council, the project will cost approximately $18 million and will be funded through a combination of city funds and a regional transportation grant. Construction and route preparation are expected to begin in January. Council officials said the expansion is intended to improve access to public transportation in neighborhoods that currently have limited service. The council has not provided a final completion date for all six routes.",
+      "expected_summary": {
+        "headline": "Riverton City Council approves an $18 million three-year plan to expand public transport with electric buses and new routes.",
+        "paragraph": "The Riverton City Council approved a three-year public transport expansion plan after a public meeting on Tuesday. The plan includes 25 new electric buses, six additional routes, and 40 new bus stops, with an estimated cost of $18 million. Funding will come from city funds and a regional transportation grant. Construction and route preparation are expected to begin in January, while the council has not provided a final completion date for all routes.",
+        "takeaways": [
+          "Riverton City Council approved a three-year public transport expansion plan.",
+          "The plan includes 25 electric buses, six new routes, and 40 new bus stops.",
+          "The project is estimated to cost approximately $18 million.",
+          "Funding will come from city funds and a regional transportation grant.",
+          "Construction and route preparation are expected to begin in January."
+        ]
+      }
+    },
+
+    {
+      "id": 3,
+      "category": "Sports",
+      "title": "Harbor City Wins National Basketball Final",
+      "article": "Harbor City defeated Metro United 92-87 in the National Basketball Final on Saturday to win its first championship in eight years. Harbor City led 48-43 at halftime and maintained its advantage through the final quarter. Guard Daniel Reed scored 27 points for Harbor City, while forward Marcus Lee added 19 points and 11 rebounds. Metro United was led by James Carter, who scored 24 points. The final was played in front of 14,200 spectators at Central Arena. Harbor City coach Elena Torres said the team's defensive performance in the second half was important to the victory.",
+      "expected_summary": {
+        "headline": "Harbor City defeats Metro United 92-87 to win its first national basketball championship in eight years.",
+        "paragraph": "Harbor City defeated Metro United 92-87 in Saturday's National Basketball Final to win its first championship in eight years. Harbor City led 48-43 at halftime, with Daniel Reed scoring 27 points and Marcus Lee recording 19 points and 11 rebounds. James Carter led Metro United with 24 points. The final was watched by 14,200 spectators at Central Arena, and Harbor City coach Elena Torres highlighted the team's second-half defense.",
+        "takeaways": [
+          "Harbor City defeated Metro United 92-87 in the National Basketball Final.",
+          "The victory gave Harbor City its first championship in eight years.",
+          "Daniel Reed scored 27 points and Marcus Lee had 19 points and 11 rebounds.",
+          "James Carter scored 24 points for Metro United.",
+          "The final was played at Central Arena in front of 14,200 spectators."
+        ]
+      }
+    },
+
+    {
+      "id": 4,
+      "category": "Business",
+      "title": "GreenMart Opens New Distribution Center",
+      "article": "Retail company GreenMart has opened a new distribution center in Eastport as part of its plan to expand its regional delivery network. The facility covers 180,000 square feet and employs approximately 320 workers. GreenMart invested $42 million in the center, which will supply stores across three states. The company said the facility uses automated sorting systems to improve package processing speed. Operations began on Monday, and GreenMart expects the center to handle up to 50,000 packages per day once it reaches full capacity. The company said it is considering additional distribution centers but has not announced specific locations.",
+      "expected_summary": {
+        "headline": "GreenMart opens a $42 million Eastport distribution center expected to handle up to 50,000 packages per day.",
+        "paragraph": "GreenMart has opened a 180,000-square-foot distribution center in Eastport to expand its regional delivery network. The company invested $42 million in the facility, which employs approximately 320 workers and will supply stores across three states. The center uses automated sorting systems and began operations on Monday. GreenMart expects it to process up to 50,000 packages per day at full capacity.",
+        "takeaways": [
+          "GreenMart opened a new distribution center in Eastport.",
+          "The facility covers 180,000 square feet and employs approximately 320 workers.",
+          "GreenMart invested $42 million in the facility.",
+          "The center will supply stores across three states and uses automated sorting systems.",
+          "The company expects the center to handle up to 50,000 packages per day at full capacity."
+        ]
+      }
+    },
+
+    {
+      "id": 5,
+      "category": "Science",
+      "title": "Researchers Develop Low-Cost Water Testing Device",
+      "article": "Researchers at the North Valley Institute have developed a portable device that can test drinking water for three common contaminants. The device uses a paper-based sensor and produces results in approximately 15 minutes. In an initial laboratory study involving 120 water samples, the researchers reported that the device correctly identified the target contaminants in 112 samples. The team said the device is designed to reduce the cost of basic water testing in areas where laboratory facilities are limited. The researchers are planning a larger field study next year. The device is still experimental and is not currently approved for official drinking water certification.",
+      "expected_summary": {
+        "headline": "North Valley Institute researchers develop a portable water-testing device that detects three common contaminants in about 15 minutes.",
+        "paragraph": "Researchers at the North Valley Institute have developed an experimental portable device for testing drinking water for three common contaminants. The paper-based sensor produces results in approximately 15 minutes and correctly identified target contaminants in 112 of 120 samples in an initial laboratory study. The team aims to reduce the cost of basic water testing in areas with limited laboratory facilities. A larger field study is planned for next year, but the device is not currently approved for official drinking water certification.",
+        "takeaways": [
+          "Researchers developed a portable device for testing three common drinking-water contaminants.",
+          "The paper-based sensor produces results in approximately 15 minutes.",
+          "The device correctly identified target contaminants in 112 of 120 laboratory samples.",
+          "Researchers want to reduce the cost of basic water testing in areas with limited laboratories.",
+          "The device remains experimental and is not currently approved for official drinking water certification."
+        ]
+      }
+    },
+
+    {
+      "id": 6,
+      "category": "Environment",
+      "title": "Coastal Town Begins Mangrove Restoration Project",
+      "article": "The coastal town of Bayhaven has begun a mangrove restoration project covering 60 hectares of damaged shoreline. The project is being led by the Bayhaven Environmental Department with support from local fishing groups and two universities. Officials said the first phase will involve planting approximately 45,000 mangrove seedlings over six months. The project is intended to restore coastal habitat and reduce shoreline erosion. Monitoring teams will record seedling survival rates every three months. The environmental department said the project will be evaluated after two years before decisions are made about expanding it to other parts of the coastline.",
+      "expected_summary": {
+        "headline": "Bayhaven begins a 60-hectare mangrove restoration project involving 45,000 seedlings.",
+        "paragraph": "Bayhaven has started a mangrove restoration project covering 60 hectares of damaged shoreline. The project is led by the Bayhaven Environmental Department with support from local fishing groups and two universities. The first phase will plant approximately 45,000 mangrove seedlings over six months to restore coastal habitat and reduce shoreline erosion. Seedling survival will be monitored every three months, with the project evaluated after two years.",
+        "takeaways": [
+          "Bayhaven began a mangrove restoration project covering 60 hectares.",
+          "The first phase will involve approximately 45,000 mangrove seedlings.",
+          "The project is supported by local fishing groups and two universities.",
+          "Planting is expected to take six months and aims to restore habitat and reduce shoreline erosion.",
+          "The project will be evaluated after two years before possible expansion."
+        ]
+      }
+    }
+  ]
+}
