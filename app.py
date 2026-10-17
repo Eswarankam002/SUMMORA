@@ -17,6 +17,7 @@ from services.history_service import save_summary, load_history
 # --------------------------------------------------
 # Page Configuration
 # --------------------------------------------------
+
 # --------------------------------------------------
 # Theme Icon
 # --------------------------------------------------
@@ -59,7 +60,7 @@ st.set_page_config(
     page_title="SUMMORA | AI Content Summarizer",
     page_icon="📰",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="collapsed"
 )
 
 
@@ -301,28 +302,32 @@ with st.sidebar:
     
     st.markdown("---")
 
-    st.write("### About")
 
-    st.write(
-        "SUMMORA summarizes news articles while "
-        "preserving important facts, numbers, dates, "
-        "names, and key information."
-    )
+    with st.expander("ℹ️ About", expanded=False):
 
-    st.markdown("---")
+        st.write("### About SUMMORA")
 
-    st.write("### Current Features")
+        st.write(
+            "SUMMORA summarizes news articles while "
+            "preserving important facts, numbers, dates, "
+            "names, and key information."
+        )
 
-    st.write("✓ AI-powered summarization")
-    st.write("✓ Headline generation")
-    st.write("✓ Paragraph summary")
-    st.write("✓ 5 key takeaways")
-    st.write("✓ Word count")
-    st.write("✓ Reading time")
-    st.write("✓ Topic detection")
-    st.write("✓ TXT download")
-    st.write("✓ PDF download")
-    st.write("✓ Image upload")
+        st.markdown("---")
+
+        st.write("### Current Features")
+
+        st.write("✓ AI-powered summarization")
+        st.write("✓ Headline generation")
+        st.write("✓ Paragraph summary")
+        st.write("✓ 5 key takeaways")
+        st.write("✓ Word count")
+        st.write("✓ Reading time")
+        st.write("✓ Topic detection")
+        st.write("✓ TXT download")
+        st.write("✓ PDF download")
+        st.write("✓ Image upload")
+
 
     st.markdown("---")
 
@@ -403,6 +408,7 @@ input_method = st.radio(
 )
 
 if input_method == "📝 Paste Article":
+    st.session_state.pop("url_article", None)
 
     article = st.text_area(
         "Paste your article below:",
@@ -466,10 +472,9 @@ else:
                     None
                 )
 
-    article = st.session_state.get(
-        "url_article",
-        ""
-    )
+    if input_method == "🔗 Article URL":
+        article = st.session_state.get("url_article", ""
+)
 
 # --------------------------------------------------
 # Image Upload
